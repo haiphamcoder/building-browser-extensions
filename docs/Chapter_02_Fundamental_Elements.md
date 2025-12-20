@@ -9,15 +9,21 @@ Giống như hầu hết các nền tảng phần mềm, tiện ích mở rộng
 
 Trước khi khám phá các yếu tố khác nhau của tiện ích mở rộng trình duyệt, trước tiên chúng ta hãy bắt đầu bằng việc xem xét hành vi mặc định của một trình duyệt. Hãy xem xét sơ đồ của một trình duyệt web với một tab đang mở (Hình 2-1).
 
-![Sơ đồ hiển thị một trình duyệt với Tab, Địa chỉ, và Nội dung trang](./images/2-1.browser-model.png)
+![Sơ đồ mô hình trình duyệt với một tab đang mở, hiển thị Tab, Địa chỉ URL và Nội dung trang](./images/2-1.browser-model.png)
+
+*Hình 2-1: Sơ đồ mô hình trình duyệt web cơ bản với một tab đang mở, bao gồm các thành phần Tab, Địa chỉ URL và Nội dung trang.*
 
 Dưới đây là sơ đồ mở rộng của một trình duyệt web với nhiều tab đang mở (Hình 2-2).
 
-![Sơ đồ hiển thị một trình duyệt với nhiều Tab](./images/2-2.browser-tabs.png)
+![Sơ đồ mô hình trình duyệt với nhiều tab đang mở, mỗi tab có địa chỉ URL và nội dung riêng](./images/2-2.browser-tabs.png)
+
+*Hình 2-2: Sơ đồ mở rộng của trình duyệt web với nhiều tab đang mở, mỗi tab có địa chỉ URL và nội dung trang riêng biệt.*
 
 Khi một extension được cài đặt, thì sơ đồ của một trình duyệt sẽ trông như này (Hình 2-3)
 
-![Sơ đồ hiển thị một trình duyệt với nhiều Tab và có một phần mở rộng được cài đặt](./images/2-3.browser-with-extension.png)
+![Sơ đồ mô hình trình duyệt với nhiều tab và có một tiện ích mở rộng được cài đặt](./images/2-3.browser-with-extension.png)
+
+*Hình 2-3: Sơ đồ trình duyệt với nhiều tab và một tiện ích mở rộng được cài đặt, cho thấy cách tiện ích tích hợp vào môi trường trình duyệt.*
 
 ### Quan sát và Chặn các Yêu cầu Mạng
 
