@@ -119,7 +119,7 @@ Tiện ích mở rộng trình duyệt rất phù hợp cho cả hai nhiệm v�
 
 Phát triển web hiện đại sẽ không thể diễn ra nếu thiếu các tiện ích mở rộng trình duyệt dành cho nhà phát triển. Trong những ngày đầu của Web, các nhà phát triển khao khát những cách để gỡ lỗi (debug) các trang web họ đang xây dựng dễ dàng hơn. Một trong những giải pháp sớm nhất cho việc này là một add-on Firefox được phát hành vào năm 2006 gọi là **Firebug**, cho phép các nhà phát triển kiểm tra và mổ xẻ trang web họ đang xem. Điều này đã đơn giản hóa đáng kể quá trình gỡ lỗi HTML, JavaScript và CSS, vốn nếu không có add-on sẽ là một mớ hỗn độn khi phải sử dụng các lệnh in (print statements) và xem mã nguồn trang thô.
 
-![Giao diện người dùng Firebug](https://commons.wikimedia.org/wiki/File:Firebug_extension_screenshot.png)
+![Giao diện người dùng Firebug](./images/1-1.firebug-extension.png)
 
 Các trình duyệt đã nhanh chóng nhận ra nhu cầu cực lớn đối với loại công cụ này, và họ bắt đầu tung ra các phiên bản trình gỡ lỗi tích hợp sẵn (native) khớp với các tính năng của Firebug. Tiện ích Firebug trở nên dư thừa và đã bị ngừng hoạt động vào năm 2017.
 
@@ -128,6 +128,8 @@ Với việc áp dụng rộng rãi các ứng dụng đơn trang (single page a
 Để giải quyết vấn đề này, nhiều nhóm phát triển khung phần mềm (framework) ứng dụng đơn trang cũng phát hành một tiện ích mở rộng trình duyệt đi kèm. Tiện ích này hiểu rất rõ các nội tại về cách một ứng dụng đơn trang cụ thể hoạt động và được trang bị một bộ công cụ rộng lớn cho phép nhà phát triển nhìn sâu vào khung phần mềm và hiểu nó đang làm gì. Điều này mang lại cho nhà phát triển cái nhìn phong phú hơn về những gì đang xảy ra trên trang – và quan trọng hơn là cách để sửa lỗi.
 
 Hơn nữa, các tiện ích mở rộng trình duyệt đã phát triển để hỗ trợ tích hợp trực tiếp vào công cụ dành cho nhà phát triển của trình duyệt. Các tiện ích có thể chèn một trang devtools tùy chỉnh vào giao diện gỡ lỗi của trình duyệt, tương tác với trang đang kiểm tra và gỡ lỗi các yêu cầu mạng. Chúng cũng có quyền truy cập vào một DevTools API tùy chỉnh.
+
+![Giao diện người dùng React Developer Tools](./images/1-2.react-devtool-ui.png)
 
 ## Tóm tắt
 
