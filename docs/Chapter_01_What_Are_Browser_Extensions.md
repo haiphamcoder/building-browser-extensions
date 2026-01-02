@@ -14,7 +14,7 @@ Giống như cách các nhà sinh học tiến hóa tìm hiểu về các thực
 
 Việc hỗ trợ các **plugin** (phần mềm thành phần thay đổi hành vi của một chương trình máy tính hiện có) lần đầu tiên được thực hiện vào những năm 1970 trên máy tính mainframe UNIVAC Series 90 (Hình 1-1). EDT, một trình soạn thảo văn bản chạy trên hệ điều hành Unisys VS/9 của máy tính mainframe, cho phép các chương trình khác "cắm vào" (plug in) và truy cập bộ nhớ đệm trong bộ nhớ (in-memory buffer) của nó, cũng như gửi các lệnh ngược lại để xử lý. Nhờ những khả năng này, các chương trình plugin có thể thay đổi luồng hoạt động của các chương trình khác hoặc gọi các lệnh soạn thảo văn bản bằng mã nguồn (programmatically) – những tác vụ trước đây thường được thực hiện thông qua nhập liệu trực tiếp của người dùng.
 
-![Máy tính mainframe UNIVAC Series 90](./images/chapter01/Fig1.jpg)
+![Máy tính mainframe UNIVAC Series 90](./images/chapter01/Fig01.jpg)
 *Hình 1-1: Máy tính mainframe UNIVAC Series 90*
 
 ### Lịch sử của trình duyệt Web
@@ -143,7 +143,7 @@ Browser extension rất phù hợp cho cả hai nhiệm vụ này. Khách năng 
 
 Phát triển web hiện đại sẽ không thể thành công nếu thiếu các browser extension dành cho nhà phát triển. Trong những ngày đầu của web, các lập trình viên khao khát những cách dễ dàng hơn để gỡ lỗi (debug) các trang web họ đang phát triển. Một trong những giải pháp sớm nhất cho vấn đề này là một tiện ích bổ sung của Firefox được phát hành vào năm 2006 có tên là **Firebug**, cho phép các nhà phát triển xem và phân tích trang web họ đang truy cập (Hình 1-2). Điều này đơn giản hóa đáng kể quá trình gỡ lỗi cho HTML, JavaScript và CSS, vốn nếu không có tiện ích bổ sung sẽ phải sử dụng các lệnh in (print statements) và xem mã nguồn thô của trang một cách chắp vá.
 
-![Giao diện người dùng Firebug](./images/chapter01/Fig2.jpg)
+![Giao diện người dùng Firebug](./images/chapter01/Fig02.jpg)
 *Hình 1-2: Giao diện người dùng Firebug*
 
 Các trình duyệt nhanh chóng nhận ra nhu cầu lớn đối với loại công cụ này và họ bắt đầu triển khai các phiên bản debugger gốc có tính năng tương đương với Firebug. Trở nên dư thừa, extension Firebug đã bị đóng cửa vào năm 2017.
@@ -154,7 +154,7 @@ Với sự áp dụng rộng rãi của các ứng dụng trang đơn (Single Pa
 
 Hơn nữa, các browser extension đã phát triển để hỗ trợ tích hợp trực tiếp vào công cụ dành cho nhà phát triển (Developer Tools) của trình duyệt. Extension có thể chèn một **devtools page** (trang công cụ phát triển) tùy chỉnh vào giao diện debug của trình duyệt, tương tác với trang đang được kiểm tra và gỡ lỗi các yêu cầu mạng. Chúng cũng có quyền truy cập vào một DevTools API tùy chỉnh. Giao diện người dùng React Developer Tools được nhúng bên trong công cụ dành cho nhà phát triển của trình duyệt được hiển thị trong Hình 1-3.
 
-![Giao diện người dùng React Developer Tools](./images/chapter01/Fig3.png)
+![Giao diện người dùng React Developer Tools](./images/chapter01/Fig03.png)
 *Hình 1-3: Giao diện người dùng React Developer Tools*
 
 ## Tóm tắt
