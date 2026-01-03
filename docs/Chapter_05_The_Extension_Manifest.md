@@ -93,6 +93,7 @@ Khi sử dụng các bản địa, thuộc tính `default_locale` là bắt bu�
 ```
 
 > Bản địa và quốc tế hóa (internationalization) là một chủ đề rộng và sâu. Tham khảo [https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization) để biết thêm chi tiết về các trình giữ chỗ bản địa (locale placeholders), các thuộc tính tin nhắn bổ sung và hơn thế nữa.
+
 > [!NOTE]
 > API WebExtensions i18n và các tệp CSS của tiện ích mở rộng cũng có thể sử dụng các chuỗi bản địa từ các tệp `messages.json` này. Tham khảo chương *Các API của Tiện ích mở rộng và Trình duyệt* để biết chi tiết.
 
