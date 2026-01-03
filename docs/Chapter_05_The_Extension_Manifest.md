@@ -93,7 +93,6 @@ Khi sử dụng các bản địa, thuộc tính `default_locale` là bắt bu�
 ```
 
 > Bản địa và quốc tế hóa (internationalization) là một chủ đề rộng và sâu. Tham khảo [https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization) để biết thêm chi tiết về các trình giữ chỗ bản địa (locale placeholders), các thuộc tính tin nhắn bổ sung và hơn thế nữa.
->
 > [!NOTE]
 > API WebExtensions i18n và các tệp CSS của tiện ích mở rộng cũng có thể sử dụng các chuỗi bản địa từ các tệp `messages.json` này. Tham khảo chương *Các API của Tiện ích mở rộng và Trình duyệt* để biết chi tiết.
 
@@ -554,7 +553,7 @@ Công cụ tìm kiếm có thể được ghi đè như sau:
 
 (Chỉ dành cho trình duyệt Chromium) Trang bắt đầu là trang sẽ mở ra khi chương trình trình duyệt được khởi chạy lần đầu. Một tiện ích mở rộng có thể thiết lập trang bắt đầu bằng cách cung cấp một mảng chứa chính xác một URL (Hình 5-8). URL trang bắt đầu có thể được ghi đè như sau:
 
-![Hình 5-8: Cài đặt Chrome hiển thị trang bắt đầu đã bị ghi đè](./images/chapter05/Fig08.jpg)
+![Hình 5-8: Cài đặt Chrome hiển thị trang bắt đầu đã bị ghi đè](./images/chapter05/Fig08.png)
 
 **Ví dụ về giá trị để ghi đè trang bắt đầu:**
 
@@ -629,7 +628,7 @@ Tất cả các câu lệnh đều có cùng một cú pháp. Mỗi câu lệnh 
 
 Sau khi tiện ích mở rộng được tải, trình duyệt sẽ phản ánh phím tắt này trong giao diện quản lý phím tắt của nó (Hình 5-9).
 
-![Hình 5-9: Trang phím tắt của Chrome hiển thị phím tắt câu lệnh tiện ích mở rộng đã đăng ký](./images/chapter05/Fig09.jpg)
+![Hình 5-9: Trang phím tắt của Chrome hiển thị phím tắt câu lệnh tiện ích mở rộng đã đăng ký](./images/chapter05/Fig09.png)
 
 > [!NOTE]
 > Danh sách phím tắt có sẵn tại `chrome://extensions/shortcuts` trong các trình duyệt Chromium và trong giao diện `about:addons` trong Firefox.
@@ -1429,7 +1428,7 @@ Thuộc tính này cho trình duyệt biết nơi đặt tệp HTML sẽ hiển 
 
 (Chỉ dành cho Firefox) Thuộc tính này là một giá trị boolean cho trình duyệt biết liệu nó có nên mở trang tùy chọn trong một tab trình duyệt thông thường thay vì trong một trang tùy chọn nhúng (Hình 5-11) hay không. Thuộc tính này mặc định là `true`.
 
-![Hình 5-11: Một giao diện tùy chọn được nhúng](./images/chapter05/Fig11.jpg)
+![Hình 5-11: Một giao diện tùy chọn được nhúng](./images/chapter05/Fig11.png)
 
 Sau đây là ví dụ về cách sử dụng thuộc tính này:
 
